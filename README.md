@@ -1,21 +1,19 @@
-# Homework Name
+# In-class JS Refresher
 
-**NOTE:** for general advice on how to get, edit, and submit homework, check out
-the [GENERAL.MD](GENERAL.MD) file. That will be the case for all homeworks.
+Starting out blank, and we'll live code a while bunch.
 
-## Overview
+This is on Github, so you can/should clone the repo and follow along as much as
+you want.
 
-High level, here's what the homework's data structure/algorithm is about.
-Explain the use cases, and when you'd use this instead of something else.
+I will push all my changes up so you can relive the magic later.
 
-## Specific homework advice
+To install dependencies, `cd` into the directory where this README is and run
+`npm install`.
 
-The file you edit for this homework is `foo.ts`.
+After installing dependencies you can run a script using `ts-node` followed by
+the relative file name, such as this:
 
-There are N tests to cover specific operations you will implement.
-
-* `foo`: Does a foo thing.
-* `bar`: Does a bar thing.
-* `baz`: Does a baz thing.
-* `baf`: Does a baf thing.
-
+```console
+$ ts-node src/hello.ts
+Hello World! 👋 🌎
+```
