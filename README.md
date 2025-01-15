@@ -14,6 +14,14 @@ After installing dependencies you can run a script using `ts-node` followed by
 the relative file name, such as this:
 
 ```console
-$ ts-node src/hello.ts
+$ npx ts-node src/hello.ts
 Hello World! 👋 🌎
 ```
+
+Let me explain that:
+
+- `npx` is a command that will run things in your local JS project
+- In this case, we're running `ts-node` which is installed as a dependency
+- `ts-node` is a Typescript-aware version of the Node JS runtime.
+- The argument to `ts-node` is `src/hello.ts` which is our file to run
+- If you make other files it can run those as well
