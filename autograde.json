@@ -1,0 +1,10 @@
+[
+  {
+    "testName": "sanity",
+    "points": 10
+  },
+  {
+    "testName": "addMoreThingsLikeThisButKeepSanity",
+    "points": 10
+  }
+]
